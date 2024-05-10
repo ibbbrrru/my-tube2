@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.side-nav-menu-container{
+    /* background-color: gray; */
+    width: 100%;
+    max-height: 90vh;
+}
+
+.side-nav-menu-list{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.150rem;
+    font-weight: 500;
+}
+.side-nav-menu-list-item{
+    display: flex;
+    padding: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+.side-nav-menu-list-item:hover{
+    background-color:rgb(193, 145, 145);
+}
+.side-nav-menu-list-item-name{
+    margin-left: .5rem;
+}
+.side-nav-menu-logo{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.side-nav-menu-logo-icn{
+    color: red;
+    font-size: 2rem;
+}
+.side-nav-menu-logo-brand{
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-left: .2rem;
+}

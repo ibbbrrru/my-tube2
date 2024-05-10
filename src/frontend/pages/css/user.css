@@ -1,0 +1,65 @@
+.user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.user-info-container{
+    display: flex;
+    padding: 2.5rem 4rem;
+    background-color: gray;
+    border-radius: .5rem;
+    width: max-content;
+    flex-grow: unset;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4rem;
+}
+.user-btn{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.user-explore-btn,.user-logout-btn{
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    padding: .5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.user-logout-btn{
+    margin-left: .5rem;
+    color: black;
+    background-color: gray;
+}
+.user-profile{
+ min-width: 90px;
+ aspect-ratio: 1/1;
+ background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-letter{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.user-detail{
+    padding: .5rem;
+
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.user-given-value{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width:515px) {
+    .user-container{
+        flex-direction: column;
+    }
+}
